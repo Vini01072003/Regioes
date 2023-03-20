@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+path {
+    fill: #ECCEA7;
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+path:hover {
+    fill: tomato;
+}
+
+.card {
+    background-color: #ECCEA7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 380px;
+    margin-left: 100px;
+}
+
+.circle {
+    background-color: red;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 180px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-btn {
+    border-radius: 50%;
+    /* Make the button circular */
+    width: 100px;
+    /* Set the width of the button */
+    height: 100px;
+    /* Set the height of the button */
+    background-color: tomato;
+    /* Set the background color of the button */
+    color: #fff;
+    /* Set the font color of the button */
+    font-size: 24px;
+    /* Set the font size of the button text */
+    border: none;
+    /* Remove the button border */
+    outline: none;
+    /* Remove the button outline when clicked */
+    cursor: pointer;
+    /* Change the cursor to a pointer when hovering over the button */
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.estado {
+    width: 150px;
+    height: 150px;
+    margin-top: 90px;
+    margin-left: 50px;
+}
